@@ -1,0 +1,393 @@
+@font-face {
+    font-family: "LunchBoxOrnamentsW05-Rg";
+    src: url("../fonts/LunchBox/LunchBoxOrnamentsW05-Rg.eot?#iefix");
+    src: url("../fonts/LunchBox/LunchBoxOrnamentsW05-Rg.eot?#iefix") format("eot"), url("../fonts/LunchBox/LunchBoxOrnamentsW05-Rg.woff2") format("woff2"), url("./fonts/LunchBox/LunchBoxOrnamentsW05-Rg.woff") format("woff"), url("../fonts/LunchBox/LunchBoxOrnamentsW05-Rg.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "LunchBoxW05-Bold";
+    src: url("../fonts/LunchBox/LunchBoxW05-Bold.eot?#iefix");
+    src: url("../fonts/LunchBox/LunchBoxW05-Bold.eot?#iefix") format("eot"), url("../fonts/LunchBox/LunchBoxW05-Bold.woff2") format("woff2"), url("../fonts/LunchBox/LunchBoxW05-Bold.woff") format("woff"), url("../fonts/LunchBox/LunchBoxW05-Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "LunchBoxW05-Light";
+    src: url("../fonts/LunchBox/LunchBoxW05-Light.eot?#iefix");
+    src: url("../fonts/LunchBox/LunchBoxW05-Light.eot?#iefix") format("eot"), url("../fonts/LunchBox/LunchBoxW05-Light.woff2") format("woff2"), url("../fonts/LunchBox/LunchBoxW05-Light.woff") format("woff"), url("../fonts/LunchBox/LunchBoxW05-Light.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "LunchBoxW05-Regular";
+    src: url("../fonts/LunchBox/LunchBoxW05-Regular.eot?#iefix");
+    src: url("../fonts/LunchBox/LunchBoxW05-Regular.eot?#iefix") format("eot"), url("../fonts/LunchBox/LunchBoxW05-Regular.woff2") format("woff2"), url("../fonts/LunchBox/LunchBoxW05-Regular.woff") format("woff"), url("../fonts/LunchBox/LunchBoxW05-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'geomanistregular';
+    src: url("../fonts/geomanist/Geomanist-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'geomanistmedium';
+    src: url("../fonts/geomanist/Geomanist-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'geomanistblack';
+    src: url("../fonts/geomanist/Geomanist-Black.otf");
+    src: url("../fonts/geomanist/AnyConv.com__Geomanist-Medium (1).woff"), url("../fonts/geomanist/AnyConv.com__Geomanist-Black.woff2");
+  }
+  
+  @font-face {
+    font-family: 'geomanistbold';
+    src: url("../fonts/geomanist/Geomanist-Bold.otf");
+    src: url("../fonts/geomanist/AnyConv.com__Geomanist-Bold.woff"), url("../fonts/geomanist/AnyConv.com__Geomanist-Black.woff2");
+  }
+
+  body, html {
+    font-family: 'geomanistregular';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .navbar-nav a {
+    color: #021D6D !important;
+    font-family: 'geomanistbold', sans-serif;
+    font-weight: 900;
+  }
+
+  .mycustomposition {
+    margin-top: 150px;
+    margin-left: -130px;
+    z-index: -1;
+  }
+
+  .mycustomposition2 {
+
+      margin-top: 380px;
+      margin-left: -150px;
+  }
+
+  /* yellow flower */
+
+  .position-yellow-f {
+    position:absolute;
+    top: -150px;
+  }
+
+
+  /* <!-- the hero section  */
+
+  .customstleh1 {
+    color: #021D6D !important;
+    font-family: "LunchBoxW05-Regular";
+    font-size: 90px !important;
+    font-weight: 400 !important;
+    line-height: 1;
+    margin: 0 auto;
+    font-size: 25.5vw;
+    width: 100%;
+  }
+
+
+  body {
+    overflow-x: hidden;
+  }
+  .customstylep {
+    font-family: 'geomanistmedium',sans-serif;
+    /* width: 50%; */
+  }
+  
+
+  .dartimg-hero {
+    margin-right: -50px;
+    
+  }
+
+
+  .hero-image {
+    background-color: chocolate;
+  }
+
+  .hero-wrapper {
+    text-align: end;
+   
+  }
+
+  .hero-wrapper img {
+    margin-right: -12px;
+    
+  }
+
+  /* .flo{
+    background-color: crimson;
+
+  } */
+
+  .text-on-img {
+    position:absolute;
+    top: 25px;
+    right: 0;
+    width: 20%;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 900px) {
+
+  .gx-0 , .g-0{
+   
+   display: flex !important;
+   flex-direction: column !important; 
+   justify-content: center !important;
+   align-content: center !important;
+   align-content: center !important;
+   margin-top: 0px !important;
+   
+  }
+  .flo  {
+    width: 100% !important;
+  }
+ .text-hero-style {
+     margin: 0px !important;
+     width: 90% !important;
+     margin-left: 10% !important;
+  }
+
+  .dart-text-row {
+    
+    margin: 0px !important;
+    display: flex !important;
+    flex-direction: row !important;    
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .dart-text-row  img {
+    width:40%;
+    margin: 0px !important;
+    transform: rotate(270deg) scaleX(-1);
+        
+  }
+  .customstylepdart {
+   
+    margin: 0px !important;
+    height: 150px;
+    width: 40% !important;
+    
+  }
+  .hero-wrapper {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  .hero-wrapper img {
+    width: 100% !important;
+    
+  }
+  .text-on-img {
+    width: 28%;
+  }
+  .position-yellow-f {
+   width: 180px;
+  }
+
+  }
+
+  /* the process of taking part section */
+
+
+  .takepart {
+    background-color: #41B9B6;
+    margin-top: 50px;
+    width: 94%;
+    margin: auto 3%;
+    border-radius: 20px;
+    /* padding: auto 10%; */
+  }
+
+  .takepart .container div {
+    background-color: #41B9B6;
+   
+  }
+
+
+  .takepart h1 {
+    color: #FFFFFF !important;
+    font-family: "LunchBoxW05-Regular";
+    font-size: 90px !important;
+    font-weight: 400 !important;
+    line-height: 1;
+    margin: 0 auto;
+    font-size: 25.5vw;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .takepart p {
+    font-family: 'geomanistbold', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF !important;
+  }
+
+  
+/* prisy section */
+
+
+.prisy-section {
+ margin-top: 70px;
+
+}
+
+.prisy-section h2 {
+  font-family: "LunchBoxW05-Regular";
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: #021D6D !important;
+  margin-bottom: 30px;
+}
+
+.prisy-section h5{
+  font-family: "LunchBoxW05-Regular";
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.prisy-section p {
+  font-family: 'geomanistregular', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.position-greenleaf-prizy {
+  position: absolute;
+  right: 0px;
+}
+
+/* instagram setion */
+
+.instagram-section {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+}
+
+.insta h2 {
+  font-family: "LunchBoxW05-Regular";
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: #021D6D !important;
+  margin-bottom: 20px;
+}
+
+.insta img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.position-greenleaf-insta {
+  position:absolute;
+  z-index: -3;
+}
+
+
+/* table */
+
+.stylethetable table{
+   width: 60% !important;
+   margin-left: 20%;
+   margin-right: 20%;  
+}
+
+.stylethetable h2{
+  font-family: "LunchBoxW05-Regular";
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: #021D6D !important;
+  margin-bottom: 20px; 
+}
+
+.position-leafrightofthebutton {
+  position:absolute;
+  right: 0px;
+  top: -100px;
+}
+
+
+/* css form */
+
+/* .allcontactstyle {
+  width:60% !important;
+  margin-left: 20%;
+  margin-right: 20%;
+} */
+
+/*  footer */
+
+footer {
+  background-color:#000046; 
+  color: white;
+}
+
+.stylet-the-footer {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: rgba(26, 124, 173, 0,5) solid ;
+}
+.formore ul {
+ 
+  margin-left: 0px;
+ 
+}
+
+.formore li {
+  display: inline;
+  
+}
+
+.footer-first-row-style {
+  font-family:"LunchBoxW05-Regular", Roboto, sans-serif;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+.formore li a {
+  text-decoration: none;
+  line-height: 1.2;
+  text-decoration: none;
+  color: rgb(231, 231, 231);
+  font-size: 18px;
+}
+
+/* hr {
+  width: 90%;
+  margin: auto 10%;
+  color: rgb(26, 124, 173);
+  height:1px;
+  opacity: 0.4;
+} */
+
+.formore2 li {
+  display: inline;
+  
+}
